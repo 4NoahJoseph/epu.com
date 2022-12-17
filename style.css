@@ -6,7 +6,8 @@
 .banner{
     width: auto;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.85)),url(epu.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.85
+)),url(epu.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

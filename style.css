@@ -46,8 +46,9 @@ position: relative;
     width: 0;
     background: #334c7f;
     position: absolute;
-    left: 0;
+    left: 50%;
     bottom: -5px;
+    transform: translateX(-50%);
     transition: 0.5s;
 }
 .navbar ul li:hover:after{
@@ -63,16 +64,20 @@ position: relative;
     color: #ddc591;
 }
 .content h1{
-    font-size: 70px;
+    font-size: 100px;
     margin-top: 80px;
-    transition: 0.5s;
-
+    color: transparent;
+-webkit-text-stroke: 0.5px #ddc591;
+background: url(back2.png);
+-webkit-background-clip: text;
+background-position: 0 0;
+animation: back 30s linear infinite;
 }
-.content h1:hover{
--webkit-text-stroke: 2px #334c7f;
-color: transparent;
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
 }
-
 .content p{
     margin: 20px auto;
     font-weight: 100;
@@ -91,7 +96,7 @@ button{
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    transition: 0.9s;
+    transition: 0.3s;
 }
 button:hover {
     border: 2px solid #334c7f;
@@ -103,10 +108,11 @@ span{
     width: 0%;
     border-radius: 25px;
     position: absolute;
-    left: 0;
+    left: 50%;
     bottom: 0;
+    transform: translateX(-50%);
     z-index: -1;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 button:hover span{
     width: 100%;

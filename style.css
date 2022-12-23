@@ -6,8 +6,7 @@
 .banner{
     width: auto;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.65
-)),url(epu.jpg);
+    background-image:url(background9\ \(2\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -20,9 +19,10 @@ display:flex;
 align-items:center;
 justify-content:space-between;
 }
-.logoan {
-    width: 120px;
-    cursor: pointer;
+.myname {
+    font-family: "";
+    font-size: xx-large;
+    color: #ffffff;
 }
 .navbar ul li{
 list-style: none;
@@ -32,19 +32,19 @@ position: relative;
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #ddc591;
+    color: #f4f4f480;
     text-transform: uppercase;
     transition: 0.5s;
 }
 .navbar ul li a:hover {
-    color: #334c7f;
+    color: #ffffff;
 }
 
 .navbar ul li::after{
     content: '';
     height: 3px;
     width: 0;
-    background: #334c7f;
+    background: #ffffff;
     position: absolute;
     left: 50%;
     bottom: -5px;
@@ -58,17 +58,18 @@ position: relative;
 .content{
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 60%;
+    height: 77vh;
     transform: translateY(-50%);
     text-align: center;
-    color: #ddc591;
+    color: #f4f4f480;
 }
 .content h1{
     font-size: 100px;
     margin-top: 80px;
     color: transparent;
--webkit-text-stroke: 0.5px #ddc591;
-background: url(back2.png);
+-webkit-text-stroke: 0.5px #f4f4f480;
+background: url(back11.png);
 -webkit-background-clip: text;
 background-position: 0 0;
 animation: back 30s linear infinite;
@@ -90,20 +91,21 @@ button{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #ddc591;
+    border: 2px solid #f4f4f480;
     background: transparent;
-    color: #334c7f;
+    color: #f4f4f480;
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 15px 30px -20px black;
     transition: 0.3s;
 }
 button:hover {
-    border: 2px solid #334c7f;
-    color: #ddc591;
+    border: 2px solid;
+    color: #ffffff;
 }
 span{
-    background: #334c7f;
+    background: #f4f4f444;
     height: 100%;
     width: 0%;
     border-radius: 25px;

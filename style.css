@@ -116,7 +116,7 @@ animation: back 30s linear infinite;
 }
 
 .click button span{
-    background: #f4f4f444;
+    background: #f4f4f41e;
     height: 100%;
     width: 0%;
     border-radius: 25px;

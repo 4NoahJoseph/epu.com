@@ -6,7 +6,7 @@
 .banner{
     width: auto;
     height: 100vh;
-    background-image:url(background9\ \(2\).jpg);
+    background-image:linear-gradient(-55deg,#f11293, #44119b);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -30,9 +30,12 @@ justify-content:space-between;
 }
 
 .myname button:hover {
-     transform: scale(1.3);
+    transform: scale(1.1);
      cursor: pointer;
-     letter-spacing: 3px;
+     color: #f11293;
+     text-shadow: 0 0 10px #f11293,
+     0 0 20px #f11293,
+     0 0 40px #f11293;
 }
 .navbar ul li{
 list-style: none;
@@ -44,22 +47,28 @@ position: relative;
     text-decoration: none;
     color: #ffffffb2;
     text-transform: uppercase;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .navbar ul li a:hover {
-    color: #ffffff;
+    color: #f11293;
+    text-shadow: 0 0 10px #f11293,
+                 0 0 20px #f11293,
+                 0 0 40px #f11293;
 }
 
 .navbar ul li::after{
     content: '';
     height: 3px;
     width: 0;
-    background: #ffffff;
+    background: #f11293;
     position: absolute;
     left: 50%;
     bottom: -5px;
     transform: translateX(-50%);
-    transition: 0.5s;
+    box-shadow: 0 0 10px #f11293,
+                0 0 20px #f11293,
+                0 0 40px #f11293;
+    transition: 0.3s;
 }
 .navbar ul li:hover:after{
     width: 100%;
@@ -77,17 +86,9 @@ position: relative;
 .content h1{
     font-size: 100px;
     margin-top: 80px;
-    color: transparent;
--webkit-text-stroke: 0.5px #f4f4f480;
-background: url(back11.png);
--webkit-background-clip: text;
-background-position: 0 0;
-animation: back 30s linear infinite;
-}
-@keyframes back{
-    100%{
-        background-position: 2000px 0;
-    }
+    color: #dd1088;
+    text-shadow: 0 0 10px #f11293,
+                 0 0 20px #f11293
 }
 .content p{
     margin: 20px auto;
@@ -112,7 +113,9 @@ animation: back 30s linear infinite;
 }
 .click button:hover {
     border: 2px solid;
-    color: #ffffff;
+    color: #f11293;
+    box-shadow: 0 0 10px #f11293,
+                0 0 10px #f11293;
 }
 
 .click button span{

@@ -6,7 +6,7 @@
 .banner{
     width: auto;
     height: 100vh;
-    background-image:linear-gradient(-55deg,#f11293, #44119b);
+    background-image:linear-gradient(-55deg,#314755, #26A0DA);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -32,10 +32,10 @@ justify-content:space-between;
 .myname button:hover {
     transform: scale(1.1);
      cursor: pointer;
-     color: #f11293;
-     text-shadow: 0 0 10px #f11293,
-     0 0 20px #f11293,
-     0 0 40px #f11293;
+     color: #314755;
+     text-shadow: 0 0 10px #314755,
+     0 0 20px #314755,
+     0 0 40px #314755;
 }
 .navbar ul li{
 list-style: none;
@@ -50,24 +50,24 @@ position: relative;
     transition: 0.3s;
 }
 .navbar ul li a:hover {
-    color: #f11293;
-    text-shadow: 0 0 10px #f11293,
-                 0 0 20px #f11293,
-                 0 0 40px #f11293;
+    color: #314755;
+    text-shadow: 0 0 10px #314755,
+                 0 0 20px #314755,
+                 0 0 40px #314755;
 }
 
 .navbar ul li::after{
     content: '';
     height: 3px;
     width: 0;
-    background: #f11293;
+    background: #314755;
     position: absolute;
     left: 50%;
     bottom: -5px;
     transform: translateX(-50%);
-    box-shadow: 0 0 10px #f11293,
-                0 0 20px #f11293,
-                0 0 40px #f11293;
+    box-shadow: 0 0 10px #314755,
+                0 0 20px #314755,
+                0 0 40px #314755;
     transition: 0.3s;
 }
 .navbar ul li:hover:after{
@@ -81,19 +81,18 @@ position: relative;
     height: 77vh;
     transform: translateY(-50%);
     text-align: center;
-    color: #ffffffb2;
 }
 .content h1{
     font-size: 100px;
     margin-top: 80px;
-    color: #dd1088;
-    text-shadow: 0 0 10px #f11293,
-                 0 0 20px #f11293
+    -webkit-text-stroke: 1px #f4f4f480;
+    color: transparent
 }
 .content p{
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
+    color: #f4f4f480;
 }
 .click button{
     width: 200px;
@@ -113,9 +112,9 @@ position: relative;
 }
 .click button:hover {
     border: 2px solid;
-    color: #f11293;
-    box-shadow: 0 0 10px #f11293,
-                0 0 10px #f11293;
+    color: #314755;
+    box-shadow: 0 0 10px #314755,
+                0 0 5px #314755;
 }
 
 .click button span{

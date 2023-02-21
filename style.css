@@ -47,8 +47,8 @@ justify-content:space-between;
      cursor: pointer;
      color: #314755;
      text-shadow: 0 0 10px #314755,
-     0 0 20px #314755,
-     0 0 40px #314755;
+                  0 0 20px #314755,
+                  0 0 40px #314755;
 }
 .navbar ul li{
 list-style: none;
